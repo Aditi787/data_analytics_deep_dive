@@ -11,11 +11,17 @@ The goal of this EDA is to understand the structure, quality, and business relev
 The analysis uses multiple relational datasets capturing the end-to-end e-commerce lifecycle:
 
 Customers – customer identity and geographic location
+
 Orders – order lifecycle and delivery timestamps
+
 Order Items – product-level pricing and freight details
+
 Payments – payment methods, installments, and values
+
 Products – product metadata and physical attributes
+
 Sellers – seller identity and geographic distribution
+
 Geolocation – zip-code level latitude and longitude data
 
 Each dataset operates at a different grain (customer, order, item, payment), making grain validation a critical first step.
