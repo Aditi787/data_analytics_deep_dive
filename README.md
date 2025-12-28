@@ -18,7 +18,7 @@ Order Items – product-level pricing and freight details
 
 Payments – payment methods, installments, and values
 
-Products – product metadata and physical attributes
+Products – product metadata and physical attributes. Can be used to calculate total order value = Freight value * quantity + Order item value * quantity
 
 Sellers – seller identity and geographic distribution
 
@@ -61,11 +61,3 @@ Credit cards dominate payment methods, with installment payments being common. R
 
 ### Products & Freight:
 Product prices and freight costs are highly skewed, suggesting opportunities for freight optimization and improved seller onboarding standards.
-
-## ⚠️ Key Analytical Considerations
-
-Always aggregate items and payments to order level before revenue analysis.
-Deduplicate or average geolocation coordinates before spatial analysis.
-Condition delivery metrics on delivered orders only.
-Treat missing product attributes as a data quality limitation, not a modeling error.
-
