@@ -26,6 +26,9 @@ Geolocation – zip-code level latitude and longitude data
 
 Each dataset operates at a different grain (customer, order, item, payment), making grain validation a critical first step.
 
+<img width="1800" height="900" alt="image" src="https://github.com/user-attachments/assets/98e4952c-c7a5-4e7e-9c05-e4133ef8fad9" />
+
+
 ## 🔎 Key Data Quality & Structural Checks
 
 Grain validation:
